@@ -15,7 +15,7 @@ const Repositories = () => {
     }
     setHasUserForSearchRepos(githubState.repositories);
 
-  }, [githubState.user.login]);
+  }, [getUserRepos, getUserStarred, githubState.repositories, githubState.user.login]);
 
   return (
     <>
