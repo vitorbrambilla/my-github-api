@@ -2,6 +2,7 @@ import React from "react";
 import useGithub from "../../hooks/github-hooks";
 import StatusCount from "../statusCount";
 import * as S from './styled';
+import logo from '../../assets/github.png';
 
 const Profile = () => {
 
@@ -48,9 +49,13 @@ const Profile = () => {
             </a>
           </S.WrapperUserGeneric>
 
+          
         </div>
         <StatusCount />
       </S.WrapperInfoUser>
+      <div>
+      <S.WrapperImageGithub src={logo} alt="logo" />
+    </div>
     </S.Wrapper >
   )
 };

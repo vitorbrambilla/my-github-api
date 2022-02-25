@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   display: flex;
-  align-items: flex-start;
+  align-items: flex-end;
 `;
 
 export const WrapperInfoUser = styled.div`
@@ -34,7 +34,7 @@ export const WrapperUserGeneric = styled.div`
 
   a {
     font-size: 18px;
-    color: blue;
+    color: #58A6FF;
     font-weight: bold;
   }
 `;
@@ -43,4 +43,10 @@ export const WrapperImage = styled.img`
   border-radius: 50%;
   width: 200px;
   margin: 8px;
+`;
+
+export const WrapperImageGithub = styled.img`
+  display: flex;
+  max-width: 400px;
+  margin: 40px 100px;
 `;

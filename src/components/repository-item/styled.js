@@ -20,7 +20,7 @@ export const WrapperFullName = styled.h2`
   font-size: 14px;
   font-weight: bold;
   margin: 8px 0;
-  color: #2d3748;
+  color: #cccccc;
 `;
 
 export const WrapperLink = styled.a`

@@ -5,6 +5,7 @@ export const Wrapper = styled.div`
   width: 100%;
   justify-content: space-between;
   padding: 4px;
+  background-color: #161B22;
 
   input {
     border: 1px solid #ccc;
@@ -24,13 +25,13 @@ export const Wrapper = styled.div`
     font-size: 16px;
 
     &:hover {
-      background-color: #2c5282;
+      background-color: #0066cc;
       box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.2);
     }
 
     span {
       font-weight: bold;
-      color: #fff;
+      color: rgb(206, 206, 206);
     }
   }
 `;
